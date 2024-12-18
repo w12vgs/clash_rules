@@ -1,9 +1,9 @@
 # **clash_rules**
----
-*openclash设置*
+---*
+## openclash设置
 ---
 ## 插件设置
-***模式设置***  
+**模式设置**  
 + 运行模式:【Fake-IP(TUN-混合)模式】  
 + 网络栈类型：【gVisor】  
 &nbsp; 避免网络游戏掉帧卡顿
@@ -15,6 +15,7 @@
 <font color="red">其他设置随便</font>  
 
 ## 覆写设置
+
 **常规设置**
 + URL-Test 策略组切换灵敏度(ms)：【100】
 + 测速（连通性）间隔修改(s)：【180】
@@ -50,3 +51,20 @@
 + 自定义流量探测（嗅探）设置 【□】
   
 <font color="red">其他设置随便</font> 
+
+## 配置订阅
+前置任务（或者直接使用别人的在线后台）
+**docker部署订阅转换后台服务** 
+```
+version: "3.3"
+services:
+  subconverter:
+    restart: always
+    ports:
+      - 25500:25500
+    image: tindy2013/subconverter:latest
+networks: {}
+```
+
+http://localhost:port/sub  
+自定义模板地址填写**config.ini**的Raw地址
