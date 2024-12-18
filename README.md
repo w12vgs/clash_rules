@@ -1,5 +1,4 @@
-# **clash_rules**
----*
+
 ## openclash设置
 ---
 ## 插件设置
@@ -11,9 +10,9 @@
 **DNS设置**  
 +  本地 DNS 劫持：【使用Dnsmasq转发】  
 +  禁止 Dnsmasq 缓存 DNS 【√】  
-
-<font color="red">其他设置随便</font>  
-
+```diff
+- 其他设置随便
+```
 ## 覆写设置
 
 **常规设置**
