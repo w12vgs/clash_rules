@@ -8,9 +8,10 @@ http://localhost:port/sub
 ---
 ## 插件设置
 - 模式设置
-1.运行模式:【Fake-IP(TUN-混合)模式】
-2.网络栈类型：【gVisor】
-- DNS设置
-  本地 DNS 劫持：【使用Dnsmasq转发】
-  禁止 Dnsmasq 缓存 DNS 【√】
-<font color="red">其他设置随便</font>
+1.运行模式:【Fake-IP(TUN-混合)模式】  
+2.网络栈类型：【gVisor】  
+&nbsp;- 避免网络游戏掉帧卡顿
+- DNS设置  
+  本地 DNS 劫持：【使用Dnsmasq转发】  
+  禁止 Dnsmasq 缓存 DNS 【√】  
+<font color="red">其他设置随便</font>  
