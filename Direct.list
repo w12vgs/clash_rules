@@ -9,9 +9,11 @@ DOMAIN-SUFFIX,emclient.com
 DOMAIN-SUFFIX,agedm.org
 DOMAIN-SUFFIX,acgnx.net
 DOMAIN-SUFFIX,mikanime.tv
+DOMAIN-SUFFIX,ns.bd
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,emclient
+DOMAIN-KEYWORD,ns.bd
 # IP段匹配
 IP-CIDR,219.146.1.66/32,no-resolve
 
