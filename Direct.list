@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,acgnx.net
 DOMAIN-SUFFIX,mikanime.tv
 DOMAIN-SUFFIX,ns.bd
 DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-KEYWORD,ipapi.co
 # 域名关键字匹配
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,emclient
