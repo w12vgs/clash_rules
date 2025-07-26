@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,op.bd
 DOMAIN-SUFFIX,themoviedb.org
 DOMAIN-KEYWORD,ipapi.co
 # 域名关键字匹配
+DOMAIN-KEYWORD,adobe
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,emclient
 # IP段匹配
